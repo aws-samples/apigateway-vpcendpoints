@@ -18,17 +18,7 @@ which are created in the providing accounts.
 
 2. Export four different environment variables:
 
-   - Your AWS account id
-   - Your AWS region
-   - The service name of the VPC Endpoint Service created in the `EC2 Provider` stack.
-     This is emitted from that stack after doing `cdk deploy`.
-
-     `ec2-provider.ec2vpcendpointservicename = com.amazonaws.vpce.us-west-2.vpce-svc-xxxxxxxxxxxxxxxxx`
-
-   - The service name of the VPC Endpoint Service created in the `ECS Provider` stack.
-     This is emitted from that stack after doing `cdk deploy`.
-
-     `ecs-provider.ecsvpcendpointservicename = com.amazonaws.vpce.us-west-2.vpce-svc-xxxxxxxxxxxxxxxxx`
+    The `TODO_SERVICE_NAME` references the VPC Endpoint Service created in the `EC2 Provider` stack. The `DOGNAME_SERVICE_NAME` references the VPC Endpoint Service   created in the `ECS Provider` stack.
 
    ```bash
    $ export AWS_ACCOUNT=111111111111
